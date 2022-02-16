@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Robot Apocalypse</name>
+    </assembly>
+    <members>
+        <member name="M:Robot_Apocalypse.Controllers.RegistrationController.Registration(Robot_Apocalypse.Models.RegistrationViewModel)">
+            <summary>
+            To register a survivor
+            </summary>
+            <remarks>
+            Test
+            </remarks>
+            <param name="registrationViewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Robot_Apocalypse.Controllers.SurvivorController.GetAllNonInfectedSurvivors">
+            <summary>
+            Get method for selecting all non infected survivors
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Robot_Apocalypse.Controllers.SurvivorController.GetAllInfectedSurvivors">
+            <summary>
+            Get method for selecting all infected survivors
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Robot_Apocalypse.Controllers.SurvivorController.GetInfectedPercentage">
+            <summary>
+            Get infected percentage
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Robot_Apocalypse.Controllers.SurvivorController.GetNonInfectedPercentage">
+            <summary>
+            Get non infected percentage
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Robot_Apocalypse.Controllers.SurvivorController.UpdateLocation(System.Int64,System.String,System.String)">
+            <summary>
+            Update location of a survivor
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Robot_Apocalypse.Controllers.SurvivorController.ReportSurviverAsInfected(Robot_Apocalypse.Models.ContaminationReportViewModel)">
+            <summary>
+            Report Surviver as infected
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
