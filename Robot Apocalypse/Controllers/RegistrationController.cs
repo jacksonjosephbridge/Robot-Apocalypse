@@ -22,9 +22,6 @@ namespace Robot_Apocalypse.Controllers
         /// <summary>
         /// To register a survivor
         /// </summary>
-        /// <remarks>
-        /// Test
-        /// </remarks>
         /// <param name="registrationViewModel"></param>
         /// <returns></returns>
         [HttpPost]

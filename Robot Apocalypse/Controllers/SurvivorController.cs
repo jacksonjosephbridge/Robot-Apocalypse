@@ -39,7 +39,11 @@ namespace Robot_Apocalypse.Controllers
         public IActionResult GetAllInfectedSurvivors()
         {
             var survivors = _survivorBusinessLayer.InfectedSurvivors();
-            return Ok(survivors);
+            if (survivors.Any())
+            {
+                return Ok(survivors);
+            }
+            return Ok("No infected survivors");
         }
 
         /// <summary>

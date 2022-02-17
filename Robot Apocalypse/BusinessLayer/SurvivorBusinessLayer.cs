@@ -66,6 +66,10 @@ namespace Robot_Apocalypse.BusinessLayer
             var totalCount = _survivorRepository.TotalSurvivors();
             var infectedCount = _survivorRepository.Infected();
             decimal percentage = (infectedCount * 100) / totalCount;
+            if (percentage == 0)
+            {
+                return "0%";
+            }
             return $"{percentage.ToString("#.##") }%";
         }
 
